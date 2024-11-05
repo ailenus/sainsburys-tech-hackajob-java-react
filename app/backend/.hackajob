@@ -1,0 +1,1 @@
+export BUILD_AND_RUN="mvn clean install -DskipTests=true && java -jar -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 target/*.jar"
